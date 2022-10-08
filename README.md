@@ -7,3 +7,9 @@ You have to install expo and node
 npm install
 ```
 
+## To start the project use the command:
+
+```bash
+expo start
+```
+
