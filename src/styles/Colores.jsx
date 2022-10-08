@@ -7,5 +7,8 @@ export const myColors = {
   gray: '#747477',
   black: '#000000',
   white: '#FFFFFF',
-  result: '#46D5B2'
+  result: '#46D5B2',
+  green: 'rgb(38, 218, 187)',
+  red: 'rgb(235, 118, 119)',
+  display: 'rgb(20, 20, 30)'
 }

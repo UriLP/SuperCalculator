@@ -9,9 +9,10 @@ interface ButtonProps {
   title: string
   isBlue?: boolean
   isGray?: boolean
+  style : any
 }
 
-export default function Button({ title, onPress, isBlue, isGray } : ButtonProps) {
+export default function Button({ title, onPress, isBlue, isGray, style } : ButtonProps) {
   const theme = useContext(ThemeContext)
 
   return (
@@ -30,9 +31,11 @@ export default function Button({ title, onPress, isBlue, isGray } : ButtonProps)
       <Text
         style={
           isBlue || isGray
-            ? Styles.smallTextLight
+            // ? Styles.smallTextLight
+            ? style
             : theme === 'dark'
-            ? Styles.smallTextLight
+            // ? Styles.smallTextLight
+            ? style
             : Styles.smallTextDark
         }
       >

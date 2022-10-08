@@ -7,37 +7,81 @@ export const Styles = StyleSheet.create({
     width: 72,
     height: 72,
     borderRadius: 24,
-    backgroundColor: myColors.blue,
+    backgroundColor: 'transparent',
     justifyContent: 'center',
     alignItems: 'center',
     margin: 8
   },
+  // btnBlue: {
+  //   width: 72,
+  //   height: 72,
+  //   borderRadius: 24,
+  //   backgroundColor: myColors.blue,
+  //   justifyContent: 'center',
+  //   alignItems: 'center',
+  //   margin: 8
+  // },
   btnDark: {
     width: 72,
     height: 72,
     borderRadius: 24,
-    backgroundColor: myColors.btnDark,
+    backgroundColor: 'transparent',
     justifyContent: 'center',
     alignItems: 'center',
     margin: 8
   },
+  // btnDark: {
+  //   width: 72,
+  //   height: 72,
+  //   borderRadius: 24,
+  //   backgroundColor: myColors.btnDark,
+  //   justifyContent: 'center',
+  //   alignItems: 'center',
+  //   margin: 8
+  // },
   btnLight: {
     width: 72,
     height: 72,
     borderRadius: 24,
-    backgroundColor: myColors.white,
+    backgroundColor: 'transparent',
     justifyContent: 'center',
     alignItems: 'center',
     margin: 8
   },
+  // btnLight: {
+  //   width: 72,
+  //   height: 72,
+  //   borderRadius: 24,
+  //   backgroundColor: myColors.white,
+  //   justifyContent: 'center',
+  //   alignItems: 'center',
+  //   margin: 8
+  // },
   btnGray: {
     width: 72,
     height: 72,
     borderRadius: 24,
-    backgroundColor: myColors.btnGray,
+    backgroundColor: 'transparent',
     justifyContent: 'center',
     alignItems: 'center',
     margin: 8
+  },
+  // btnGray: {
+  //   width: 72,
+  //   height: 72,
+  //   borderRadius: 24,
+  //   backgroundColor: myColors.btnGray,
+  //   justifyContent: 'center',
+  //   alignItems: 'center',
+  //   margin: 8
+  // },
+  smallTextGreen: {
+    fontSize: 32,
+    color: myColors.green
+  },
+  smallTextRed: {
+    fontSize: 32,
+    color: myColors.red
   },
   smallTextLight: {
     fontSize: 32,
