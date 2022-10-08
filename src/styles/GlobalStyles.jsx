@@ -98,7 +98,7 @@ export const Styles = StyleSheet.create({
   },
   viewBottom: {
     position: 'absolute',
-    bottom: 50
+    bottom: 30
   },
   screenFirstNumber: {
     fontSize: 96,
